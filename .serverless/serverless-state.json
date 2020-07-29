@@ -160,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/beverly-hills-backend/dev/1595868306981-2020-07-27T16:45:06.981Z/beverly-hills-backend.zip"
+                "S3Key": "serverless/beverly-hills-backend/dev/1596041756948-2020-07-29T16:55:56.948Z/beverly-hills-backend.zip"
               },
               "FunctionName": "beverly-hills-backend-dev-app",
               "Handler": "server.handler",
@@ -178,14 +178,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersionew2qWZ4NspWNSxDf9bW2UkEDBF05pyDaswjB0rZufmY": {
+          "AppLambdaVersionAcR6lJtaU9ecTZEqoacjcLQuiyt0uJVuEUJN54xbic": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "aIy+3hY5liqAZ6gWfxgqloyfIrpxqan7gNSd1N9c4nw="
+              "CodeSha256": "jeKw1iIThw+njF9sIkHaSMi7YIJMy1aXQgPDte21rq0="
             }
           },
           "ApiGatewayRestApi": {
@@ -304,7 +304,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1595868291210": {
+          "ApiGatewayDeployment1596041740003": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -364,7 +364,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersionew2qWZ4NspWNSxDf9bW2UkEDBF05pyDaswjB0rZufmY"
+              "Ref": "AppLambdaVersionAcR6lJtaU9ecTZEqoacjcLQuiyt0uJVuEUJN54xbic"
             }
           },
           "ServiceEndpoint": {
@@ -482,16 +482,16 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersionew2qWZ4NspWNSxDf9bW2UkEDBF05pyDaswjB0rZufmY"
+        "versionLogicalId": "AppLambdaVersionAcR6lJtaU9ecTZEqoacjcLQuiyt0uJVuEUJN54xbic"
       }
     },
     "serviceFilename": "serverless.yml",
     "layers": {},
     "isDashboardMonitoringPreconfigured": false,
-    "artifact": "/home/vivekvt/Desktop/codemarket/Testing/graphql/.serverless/beverly-hills-backend.zip"
+    "artifact": "/home/vivekvt/Desktop/codemarket/90210wc/90210wc-backend/.serverless/beverly-hills-backend.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/beverly-hills-backend/dev/1595868306981-2020-07-27T16:45:06.981Z",
+    "artifactDirectoryName": "serverless/beverly-hills-backend/dev/1596041756948-2020-07-29T16:55:56.948Z",
     "artifact": "beverly-hills-backend.zip"
   }
 }

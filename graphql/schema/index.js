@@ -9,7 +9,11 @@ module.exports = buildSchema(`
     slug: String!
     description:  String!
   }
-
+  
+  type Mutation {
+    sendEmail(email:String): String
+  }
+  
   type Query {
     getIvdrips:[Menu!]
     getTherapies:[Menu!]
@@ -19,6 +23,7 @@ module.exports = buildSchema(`
 
   schema {
    query: Query
+   mutation: Mutation
  }
 
 `);
